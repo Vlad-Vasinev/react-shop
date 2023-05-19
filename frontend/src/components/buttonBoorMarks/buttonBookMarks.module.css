@@ -1,0 +1,12 @@
+.buttonBookmarks {
+    width: 190px;
+    height: 40px;
+    background-color: #fff;
+    color: #191919;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

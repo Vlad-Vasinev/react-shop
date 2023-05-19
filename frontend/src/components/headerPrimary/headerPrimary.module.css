@@ -1,0 +1,46 @@
+
+.header{
+    padding: 40px 0 20px;
+    background-image: url('../../assets/images/headerBg.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.headerList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerItemLinks, .headerItemIcons{
+    max-width: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerItemEl + .headerItemEl {
+    margin-left: 20px;
+}
+
+.headerItemIcon + .headerItemIcon{
+    margin-left: 10px;
+}
+
+.headerItemIcon{
+    width: 18px;
+    height: 18px;
+}
+
+.headerEl{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.headerItemLink svg{
+    width: 18px;
+    height: 18px;
+}

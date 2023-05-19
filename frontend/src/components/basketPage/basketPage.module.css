@@ -1,0 +1,113 @@
+.basketWrapper {
+    max-width: 1120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+.basketLeftSection {
+    text-align: left;
+    max-width: 376px;
+    width: 100%;
+    padding-right: 80px;
+}
+
+.basketEl {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basketElDel {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.basketElDel svg {
+    width: 20px;
+    height: 20px;
+}
+
+.basketElName,
+.basketElEquipment,
+.basketElCount {
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000a3;
+}
+
+.basketList {
+    margin-bottom: 20px;
+}
+
+.countItemsTitle {
+    text-transform: uppercase;
+}
+
+.countItemsField {
+    font-size: 22px;
+    line-height: 100%;
+}
+
+.countItems {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.basketLeftTitle {
+    margin-bottom: 20px;
+}
+
+.basketRightSection {
+    text-align: left;
+    max-width: 720px;
+    width: 100%;
+}
+
+.basketRightTitle {
+    margin-bottom: 20px;
+}
+
+.countItemsPolicy {
+    margin-bottom: 20px;
+}
+
+.orderBtn {
+    max-width: 346px;
+    width: 100%;
+    padding: 12px 0;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    word-wrap: break-word;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #1E262B;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.basketRightText+.basketRightText {
+    margin-top: 20px;
+}
+
+.basketRightTitle {
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+    font-weight: 300px;
+}
+
+.basketRightSubitle {
+    margin-top: 5px;
+    display: block;
+    color: #0000008a;
+}

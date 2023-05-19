@@ -1,0 +1,9 @@
+
+
+.mainList{
+    grid-gap: 34px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,209px);
+    justify-content: center;
+    margin-bottom: 60px;
+}

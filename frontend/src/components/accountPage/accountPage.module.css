@@ -1,0 +1,68 @@
+
+
+.accountWrapper{
+    /* margin-top: 100px; */
+    /* max-width: 660px; */
+   display: flex; 
+    width: 100%;
+    padding: 24px;
+    padding-top: 100px;
+    background-color: #ffffff;
+}
+
+.accountInner{
+    min-height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+
+.accountFields{
+    margin-left: 40px;
+}
+
+.accountImg{
+    max-width: 100px;
+    width: 100%;
+}
+
+.accountImg img{
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 120px;
+}
+
+.accountField + .accountField{
+    margin-top: 14px;
+}
+
+.editProfile{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    transition: all .3s;
+}
+
+.editProfile svg{
+    width: 30px;
+    height: 30px;
+}
+
+.editProfile svg path{
+    transition: all .3s;
+}
+
+.editProfile:hover{
+    background-color: #000000;
+}
+
+.editProfile:hover svg path{
+    fill: #ffffff;
+}
+
+.changeProfile{
+    
+}
